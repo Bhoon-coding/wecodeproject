@@ -1,0 +1,110 @@
+
+
+* {
+  margin: 0;
+  padding: 0;  
+}
+ 
+
+body {
+  background-color: rgba(110, 214, 240, 0.904);
+  padding-top:200px;
+}
+#nav {
+  position: fixed;
+  top:0;
+  width: 100%;
+  background: cornflowerblue;
+  padding:30px 50px;
+  overflow: auto;
+  font-weight:bold;
+
+}
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#nav ul {
+  float: left;
+  overflow: auto;
+}
+
+#nav ul:last-child {
+  float: right;
+  margin: 30px 100px 10px 10px;
+}
+
+#nav li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1;
+}
+
+li a:hover:not(.current) {
+  background-color: #CD853F;
+  color: white;
+}
+
+
+.header{
+  text-align: center;
+  
+}
+
+/* Profile */
+
+.Prof {
+  overflow: auto;
+  text-align: center;
+ margin:0 auto;
+ 
+}
+
+.my_info {
+  text-align: center;
+  margin-top: 30px;
+ font-weight: bold;
+ font-size: 20px;
+}
+
+/*  //Favorite */
+
+.fav {
+  font-weight: bold;
+
+}
+
+.fav ul {
+  font-size: 0;
+  padding: 0 20px;
+}
+
+.fav li {
+  display: inline-block;
+  width: 49%;
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+  margin: 15px 2% 0 0;
+}
+
+.fav li:nth-child(-n+2) {
+  margin-top: 0;
+}
+
+.fav li:nth-child(2n) {
+  margin-right: 0;
+}
+
+.Fav_img {
+  display: inline-block;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 5px solid #633b3b;
+}
